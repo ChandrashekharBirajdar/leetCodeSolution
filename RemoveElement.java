@@ -18,10 +18,7 @@ class RemoveElement {
             }
             i++ ; 
         }
-        for(int num : nums){
-            System.out.print(num+" \t");
-        }
-        return count ;
+        return nums.length - count ;
     }
 
     public static void main(String[] args) {
